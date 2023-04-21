@@ -1,10 +1,12 @@
 package com.tragsa.springboot.backend.apirest.models.entity;
 
+import java.io.Serializable;
+
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "regiones")
-public class Region {
+public class Region  implements Serializable{
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
