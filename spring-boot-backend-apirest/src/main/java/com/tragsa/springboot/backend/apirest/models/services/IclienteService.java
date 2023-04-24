@@ -20,6 +20,6 @@ public interface IclienteService {
 	
 	public void delete(Long id);
 	
-	public List <Region> findAllRegiones();
+	public List<Region> findAllRegiones();
 
 }
